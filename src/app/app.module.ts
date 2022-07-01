@@ -21,7 +21,7 @@ import { MoviesModule } from './Public/movies.module';
     FormsModule,
     CoreModule,
     SharedModule,
-    MoviesModule
+    MoviesModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
