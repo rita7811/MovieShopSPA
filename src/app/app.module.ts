@@ -8,6 +8,8 @@ import { SharedModule } from './Shared/shared.module';
 import { MovieDetailsComponent } from './Public/movie-details/movie-details.component';
 import { CastDetailsComponent } from './Public/cast-details/cast-details.component';
 import { MoviesModule } from './Public/movies.module';
+import { HttpClientModule } from '@angular/common/http';
+import { GenreModule } from './Public/genre/genre.module';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { MoviesModule } from './Public/movies.module';
     FormsModule,
     CoreModule,
     SharedModule,
-    MoviesModule 
+    MoviesModule,
+    GenreModule,
+    HttpClientModule 
   ],
   providers: [],
   bootstrap: [AppComponent]

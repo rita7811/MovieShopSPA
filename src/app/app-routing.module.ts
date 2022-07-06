@@ -10,7 +10,7 @@ const routes: Routes = [
   { path: 'Admin', loadChildren: () => import("./Admin/admin.module").then(mod => mod.AdminModule) },
   { path: 'Account', loadChildren: () => import("./Account/account.module").then(mod => mod.AccountModule) },
   { path: 'User', loadChildren: () => import("./User/user.module").then(mod => mod.UserModule) },
-  { path: 'Genres', component: GenreComponent },
+  { path: 'Genres', loadChildren: () => import("./Public/genre/genre.module").then(mod => mod.GenreModule) },
   { path: 'Reviews', component: ReviewsComponent }
 ];
 
