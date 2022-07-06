@@ -22,11 +22,11 @@ export class GenreComponent implements OnInit {
   }
 
   deleteGenre(id:number){
-    // this.genreService.deleteGenre(id).subscribe(p => {
-    //   this.deleteFlag = true;
-    // });
+    this.genreService.deleteGenre(id).subscribe(p => {
+      this.deleteFlag = true;
+    });
     
-    this.deleteFlag = true;
+    // this.deleteFlag = true;
   }
 
 }

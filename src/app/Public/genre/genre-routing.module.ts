@@ -4,10 +4,8 @@ import { AddGenreComponent } from './add-genre/add-genre.component';
 import { GenreComponent } from './genre.component';
 
 const routes: Routes = [
-  { path: '', component: GenreComponent,
-    children: [
-      {path: 'addGenre', component: AddGenreComponent}
-  ] }
+  { path: '', component: GenreComponent },
+  { path: 'Genres/addGenre', component: AddGenreComponent }
 ];
 
 @NgModule({

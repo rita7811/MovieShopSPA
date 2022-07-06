@@ -22,6 +22,6 @@ export class GenreService {
 
   deleteGenre(genreId:number)
   {
-    return this.http.delete('https://localhost:7058/api/Genres/deltet/'+genreId);
+    return this.http.delete('https://localhost:7058/api/Genres/delete/id:int?id='+genreId);
   }
 }

@@ -10,6 +10,7 @@ import { CastDetailsComponent } from './Public/cast-details/cast-details.compone
 import { MoviesModule } from './Public/movies.module';
 import { HttpClientModule } from '@angular/common/http';
 import { GenreModule } from './Public/genre/genre.module';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { GenreModule } from './Public/genre/genre.module';
     SharedModule,
     MoviesModule,
     GenreModule,
-    HttpClientModule 
+    HttpClientModule,
+    ReactiveFormsModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
