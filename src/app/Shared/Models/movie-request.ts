@@ -10,11 +10,11 @@ export interface MovieRequest {
     posterUrl:string;
     backdropUrl:string;
     originalLanguage:string;
-    releaseDate:string;
+    releaseDate:Date;
     runTime:number;
     price:number;
-    createdDate:string;
-    updatedDate:string;
+    createdDate:Date;
+    updatedDate:Date;
     createdBy:string;
     updatedBy:string;
 }

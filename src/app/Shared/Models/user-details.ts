@@ -9,7 +9,7 @@ export interface UserDetails {
     Reviews:Review[];
     Favorites:Favorite[];
 
-    in:number;
+    id:number;
     firstName:string;
     lastName:string;
     email:string;

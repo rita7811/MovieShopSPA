@@ -3,5 +3,5 @@ export interface Movie {
     title:string;
     posterUrl:string;
     originalLanguage:string;
-    releaseDate:string;
+    releaseDate:Date;
 }

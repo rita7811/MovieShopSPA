@@ -3,5 +3,5 @@ export interface UserRegister {
     password:string;
     lastName:string;
     firstName:string;
-    dateOfBirth:string;
+    dateOfBirth:Date;
 }

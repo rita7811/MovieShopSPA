@@ -11,6 +11,8 @@ import { MoviesModule } from './Public/movies.module';
 import { HttpClientModule } from '@angular/common/http';
 import { GenreModule } from './Public/genre/genre.module';
 import { ReactiveFormsModule } from '@angular/forms';
+// import { RxReactiveFormsModule } from '@rxweb/reactive-form-validators';
+// import { CurrencyPipe } from'@angular/common';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     MoviesModule,
     GenreModule,
     HttpClientModule,
-    ReactiveFormsModule 
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

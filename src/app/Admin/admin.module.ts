@@ -5,6 +5,7 @@ import { AdminRoutingModule } from './admin-routing.module';
 import { CreateMovieComponent } from './create-movie/create-movie.component';
 import { CreateCastComponent } from './create-cast/create-cast.component';
 import { TopPurchasesComponent } from './top-purchases/top-purchases.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { TopPurchasesComponent } from './top-purchases/top-purchases.component';
   ],
   imports: [
     CommonModule,
-    AdminRoutingModule
+    AdminRoutingModule,
+    ReactiveFormsModule
   ]
 })
 export class AdminModule { }

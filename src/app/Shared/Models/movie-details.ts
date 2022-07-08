@@ -20,7 +20,7 @@ export interface MovieDetails {
     revenue:number;
     imdbUrl:string;
     tmdbUrl:string;
-    releaseDate:string; //Date
+    releaseDate:Date;
     runTime:number;
     price:number;
 }
